@@ -1,0 +1,26 @@
+{
+  "name": "its-tecnology",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iappaPedroza/its-tecnology.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iappaPedroza/its-tecnology/issues"
+  },
+  "homepage": "https://github.com/iappaPedroza/its-tecnology#readme",
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
