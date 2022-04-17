@@ -1,24 +1,11 @@
-import { useState } from 'react';
-
 function Home () {
     return (
         <div>
-            <h1>Home</h1>
-            <Contador />
+            <h1>ITS Tecnologia Criativa</h1>
+            <p>Estudando Laravel</p>
         </div>
     )
 }
 
-function Contador() {
-    const [contador, setContador] = useState(1);
-    function adicionarContador(){
-        setContador(contador+1);
-    }
-    return (
-        <div>
-            <h2>{contador}</h2>
-            <button onClick={adicionarContador}>Adicionar</button>
-        </div>
-    )
-}
+
 export default Home;
