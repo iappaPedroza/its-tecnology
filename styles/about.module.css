@@ -1,0 +1,10 @@
+.main {
+    display: block;
+    padding: 10px 15px;
+}
+.main h1 {
+    color: blue;
+}
+.main p {
+    padding: 20px 0;
+}

@@ -1,14 +1,17 @@
 import Link from "next/link";
-import NavBar from "../components/NavBar";
+import styles from "../styles/about.module.css";
 export default function About() {
   return (
     <>
-      <NavBar/>
-      <h1>Sobre</h1>
-      <p>This is Second Page</p>
-      <Link href="/">
-        <a>Voltar</a>
-      </Link>
+      <div className={styles.container}>
+        <main className={styles.main}>
+          <h1>Sobre</h1>
+          <p>This is Second Page</p>
+          <Link href="/">
+            <a>Voltar</a>
+          </Link>
+        </main>
+      </div>
     </>
   );
 }

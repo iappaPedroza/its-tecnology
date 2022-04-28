@@ -1,0 +1,29 @@
+.navbar {
+    display:flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items:center;
+    align-content: space-around;
+    background-color: var(--myBgBlue1);
+    color: var(--white)!important;
+    padding: 10px 5px;
+    
+  }
+.logo {
+    margin-left: 20px;
+  }
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.navbar a {
+    color: var(--white);
+    text-decoration: none;
+    transition: .5s all ease-in-out;    
+    padding: 10px 15px;
+    /* border: yellow solid 1px; */
+}
+.navbar a:hover {
+    color: var(--mySecColor);
+}

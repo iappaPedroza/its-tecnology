@@ -1,0 +1,22 @@
+.main {
+    display: block;
+    padding: 10px 15px;
+}
+.main h1 {
+    color: blue;
+}
+.main p {
+    padding: 10px 0;
+    overflow-wrap: break-word;
+    max-width: 350px;
+}
+.main ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main a {
+    text-decoration: none;
+    margin-left: 10px;
+}

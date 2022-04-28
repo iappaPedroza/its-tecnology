@@ -1,0 +1,87 @@
+/******* ITS Tecnologia Criativa ********/
+/*! Desenvolvido por Iaponã Pedroza - 
+- Jaboatão dos Guararapes - PE - BR -
+Agosto - Dezembro - 2021 */
+
+/*Paleta de cores padrão base*/
+:root {
+    --cyan: #17a2b8;
+    --ciano: rgb(0, 174, 239);
+    --blue: #007bff;
+    --myBgBlue1: #0D338C;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: rgb(0, 174, 239);
+    --secondary: #6EBBF6;
+    --mySecColor: #CFDCFC;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #FEF1EF;
+    --dark: #211E1C;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "Poppins", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+@font-face {
+    font-family: "Philosopher";
+    src: local(Philosopher), url(../fonts/Philosopher-Regular.ttf)
+}
+@font-face {
+    font-family: "PhilosopherBd";
+    src: local(PhilosopherBd), url(../fonts/Philosopher-Bold.ttf)
+}
+@font-face {
+    font-family: "PhilosopherBdIt";
+    src: local(PhilosopherBdIt), url(../fonts/Philosopher-BoldItalic.ttf)
+}
+@font-face {
+    font-family: "PhilosopherIt";
+    src: local(PhilosopherIt), url(../fonts/Philosopher-Italic.ttf)
+}
+/* Hacking for boxing models */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Philosopher"!important;
+}
+.navbar {
+    background-color: var(--myBgBlue1);
+    color: var(--mySecColor)!important;
+}
+.navbar a {
+    color: var(--mySecColor);
+}
+#sobre {
+    background-color: #0D338C;
+    padding: 25px;
+}
+#sobre .quem-somos {
+    padding: 30px;
+    background-color: #97A5C6;
+}
+#rodape {
+    background-color: var(--myBgBlue1);
+    color: var(--white);
+}

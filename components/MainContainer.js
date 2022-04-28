@@ -1,12 +1,15 @@
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 
-export default function MainContainer(){
+export default function MainContainer({children}){
     return(
         <>
             <NavBar />
             
-            <div></div>
+            <div>{children}</div>
+
+            <Footer/>
         </>
     )
 }

@@ -1,0 +1,30 @@
+.main {
+    display: block;
+    padding: 10px 15px;
+    transition: all .4s ease-in-out;
+}
+.main h1 {
+    color: blue;
+}
+.main p {
+    padding: 20px 0;
+}
+.main ul {
+    padding: 15px 10px;
+    display: block;
+    border-left: grey solid 1px;
+    width: 500px;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main ul li {
+    padding: 10px 0px;
+    width:fit-content;
+    max-width: 250px;
+    border-bottom: #c9c9c0 solid 1px;
+}
+.main a {
+    text-decoration: none;
+    
+}
