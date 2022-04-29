@@ -39,7 +39,7 @@ build/Release
 
 # Dependency directories
 mockups/
-pages/hello.js
+
 node_modules/
 jspm_packages/
 
